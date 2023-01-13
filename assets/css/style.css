@@ -47,6 +47,7 @@ main {
     border-radius: 10px;
     width: 75vw;
     align-items: center;
+    justify-content: center;
 }
 
 .score-container {
@@ -80,5 +81,14 @@ main {
 }
 
 #display {
-    height: 25vh;
+    font-size: 4em;
+    text-align: center;
+    padding: 50px;
 }
+
+@media only screen and (max-width: 500px) {
+    #display {
+        font-size: 2em;
+        padding: 25px;
+    }
+  }
